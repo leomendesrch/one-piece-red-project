@@ -1,0 +1,64 @@
+*{
+    font-size: 15px;
+}
+
+.contact-container{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+input{
+    height: 40px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px red solid;
+    background-color: black;
+    padding-left: 5px;
+}
+
+textarea{
+    background-color: black;
+    height: 300px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px red solid;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+select{
+    background-color: black;
+    height: 40px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px red solid;
+    padding-left: 5px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+

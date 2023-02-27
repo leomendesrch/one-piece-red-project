@@ -1,0 +1,51 @@
+.cards-container{
+    padding: 30px;
+    height: 1100px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+.cards-content{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    width: 500px;
+    height: 1000px;
+    transition: 1s;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url('https://johto.legiaodosherois.com.br/wp-content/uploads/2022/04/legiao_HFEACUJz7L2n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+.banner-2{
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/fpy0j9yaaaenrud_mhjd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.banner-3{
+    background-image: url('https://onepieceex.net/wp-content/uploads/2022/08/Shanks-One-Piece-Red.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
